@@ -12,7 +12,7 @@ int main() {
 
     cin >> test_case;
 
-    for(int i = 0; i < test_case; i++) {
+    for(int j = 0; j < test_case; j++) {
         
         result = 0;
         stock_flag = 0;
