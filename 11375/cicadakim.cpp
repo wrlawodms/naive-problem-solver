@@ -35,7 +35,7 @@ bool findST(vector<vector<int> >& arr, int start, int end)
 				break;
 			}
 		} 
-		if(!hasNext)
+		if(!hasNext) 
 		{
 			if(path.empty())return false;
 			current = path[path.size()-1];
