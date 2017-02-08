@@ -57,7 +57,7 @@ int findMinPath(int start, int end)
 		for (int i = 0; i<length; i++)
 		{
 			if (path[here][i] <= 0)continue;
-			int nextDist = path[here][i] + d;
+			int nextDist = path[here][i] + d; 
 
 			if (dist[i] == -1 || nextDist < dist[i])
 			{
