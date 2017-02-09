@@ -1,6 +1,6 @@
 .DS_Store
 .idea
-.out
-.o
-.a
-.so
+*.out
+*.o
+*.a
+*.so
